@@ -1,0 +1,94 @@
+.form-control{
+    color: red;
+border: 1.5px solid #84754E;
+background-color: #E6E7E8;
+}
+
+.form-check-label{
+  color:#84754E ;
+    font-size: 11px; /* Tamaño de la fuente del texto */
+
+
+}
+
+input[type="radio"]::before {
+  border-color: #84754E; /* Cambiar color del círculo */
+}
+input[type="radio"]:checked::before {
+  background-color: #84754E; /* Cambiar color del círculo cuando está seleccionado */
+}
+
+.form-label{
+    font-weight: bold;
+
+}
+.form-check .form-check-input[type="radio"] {
+    border: 1.4px solid #84754E; /* Borde rojo */
+    border-radius: 50%; /* Forma circular */
+    width: 18px; /* Ancho */
+    height: 18px; /* Altura */
+    margin-right: 10px; /* Espacio entre el radio y el texto */
+    vertical-align: middle; /* Alineación vertical con el texto */
+  }
+
+  /* Estilo para el texto al lado del radio */
+  .form-check-label {
+    vertical-align: middle; /* Alineación vertical con el radio */
+  }
+  .text-2 {
+  margin-bottom: 20px;
+}
+
+.text-over-image {
+  position: relative;
+  bottom: 100px;
+  left: 75%; /* Centra el texto horizontalmente */
+  transform: translateX(-50%); /* Ajusta el centro exacto del texto */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  margin: 0; /* Elimina el margen para un mejor ajuste */
+  font-size: 20px; /* Tamaño de la fuente del texto */
+}
+.anuncio {
+    margin-top: 60px; /* Puedes ajustar este valor según lo que necesites */
+  }
+
+  .celebracion {
+    margin-top: 60px; /* Puedes ajustar este valor según lo que necesites */
+  }
+
+.autorizacion {
+    font-size: 12px;
+    border: 1.3px solid #84754E !important; /* Cambiado a un color más oscuro */
+    padding: 15px;
+    left: 20px;
+}
+
+ .comentario1 {
+    font-size: 12px; /* Tamaño de fuente para comentario1 */
+    margin-top: 20px;
+  }
+
+  .comentario2 {
+    font-size: 12px; /* Tamaño de fuente para comentario2 */
+
+  }
+ 
+
+.comentario1 {
+    margin-bottom: -10px; /* Elimina el margen inferior */
+}
+
+.comentario2 {
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+
+@media (max-width: 575px) {
+    .text-over-image{
+        left: 55%;
+        font-size: 16px;
+    }
+   
+
+}

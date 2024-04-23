@@ -1,0 +1,58 @@
+.background-image1 {
+    position: relative;
+    min-height: 700px; /* o la altura que desees */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .text4-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .image-vertical-center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Color de fondo semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .comunicado {
+      font-size: 12px;
+     background-color: red;
+      padding: 15px;
+      justify-content: center;
+    align-items: center;
+      width: 110%;
+  }
+  
+  .mensaje {
+      font-size: 34px;
+          font-weight: bold;
+  
+    
+  }
+  #text-1, #text-2 {
+      margin-bottom: 0; /* Elimina el margen inferior */
+  }
+  

@@ -1,0 +1,25 @@
+.paginacion {
+    color: #E6E7E8;
+    font-size: 7px;
+  }
+  #paginacion {
+    color: #E6E7E8;
+    font-size: 7px;
+  }
+  .icon-circle1 {
+    width: 40px;
+    height: 40px;
+    background-color: #84754E; /* color amarillo del círculo */
+    border-radius: 50%; /* esto hace que el contenedor sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white; /* borde amarillo */
+    margin-top: 20px;
+      margin-right: 8px; /* Espacio horizontal */
+  
+  }
+  
+  .icon-color1 {
+    color: white; /* Color blanco para los íconos sobre fondo oscuro */
+  }
